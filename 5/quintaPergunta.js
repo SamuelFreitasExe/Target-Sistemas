@@ -10,15 +10,17 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 function inverterString(str) {
     let resultado = '';
     for (let i = str.length - 1; i >= 0; i--) {
-      resultado += str[i];
+        resultado += str[i];
     }
     return resultado;
-  }
-  
-  // Exemplo de uso com string definida
-  const stringDefinida = 'Exemplo de string';
-  console.log('String original:', stringDefinida);
-  console.log('String invertida:', inverterString(stringDefinida));
-  /*
-  resposta:
-   */
+}
+
+// Exemplo de uso com string definida
+const stringDefinida = 'Exemplo de string';
+console.log('String original:', stringDefinida);
+console.log('String invertida:', inverterString(stringDefinida));
+/*
+resposta:
+String original: Exemplo de string
+String invertida: gnirts ed olpmexE
+ */
